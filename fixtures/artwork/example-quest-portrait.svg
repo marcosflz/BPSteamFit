@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1d33"/>
+      <stop offset="0.55" stop-color="#1f4e63"/>
+      <stop offset="1" stop-color="#0a0f14"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd166" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffd166" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12384b"/>
+      <stop offset="1" stop-color="#05080c"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#sky)"/>
+  <circle cx="452" cy="176" r="88" fill="#ffe8b6" opacity="0.96"/>
+  <circle cx="432" cy="158" r="76" fill="#1f4e63" opacity="0.55"/>
+  <g fill="#e8f0f5" opacity="0.85">
+    <circle cx="70" cy="92" r="2"/>
+    <circle cx="138" cy="148" r="1.6"/>
+    <circle cx="214" cy="66" r="1.4"/>
+    <circle cx="322" cy="112" r="2"/>
+    <circle cx="536" cy="70" r="1.6"/>
+    <circle cx="500" cy="286" r="1.4"/>
+    <circle cx="92" cy="250" r="1.8"/>
+    <circle cx="180" cy="318" r="1.3"/>
+  </g>
+  <path d="M0 690 L128 612 L248 670 L382 584 L520 666 L600 622 L600 900 L0 900 Z" fill="#081018" opacity="0.94"/>
+  <rect y="700" width="600" height="200" fill="url(#sea)" opacity="0.9"/>
+  <path d="M0 764 Q90 744 180 764 T360 764 T540 764 T720 764 L720 900 L0 900 Z" fill="#0a141c" opacity="0.8"/>
+  <polygon points="294,646 338,646 360,900 272,900" fill="#0e1a22"/>
+  <polygon points="302,306 334,646 266,646" fill="#e9eef2"/>
+  <polygon points="302,306 334,646 302,646" fill="#aab8c2" opacity="0.75"/>
+  <rect x="276" y="292" width="52" height="44" fill="#ffd166"/>
+  <polygon points="302,300 600,214 600,304 302,328" fill="url(#beam)" opacity="0.72"/>
+  <rect x="258" y="334" width="88" height="16" fill="#dbe7ef" opacity="0.9"/>
+  <g opacity="0.55">
+    <path d="M70 820 Q110 808 150 820" stroke="#ffd166" stroke-width="2" fill="none"/>
+    <path d="M410 842 Q450 830 490 842" stroke="#e9eef2" stroke-width="2" fill="none"/>
+    <path d="M190 870 Q230 858 270 870" stroke="#e9eef2" stroke-width="1.5" fill="none"/>
+  </g>
+  <text x="48" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="17" letter-spacing="6" fill="#ffd166">A FICTIONAL DEMO</text>
+  <text x="48" y="790" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800" fill="#ffffff">EXAMPLE</text>
+  <text x="48" y="846" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800" fill="#ffffff">QUEST</text>
+  <text x="50" y="876" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="4" fill="#9fc4d4">ORIGINAL DEMO ARTWORK</text>
+</svg>

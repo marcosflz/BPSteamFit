@@ -1,0 +1,43 @@
+appId: com.bpsteamfit.app
+productName: BPSteamFit
+copyright: BPSteamFit contributors
+directories:
+  output: release
+  buildResources: resources
+files:
+  - out/**/*
+  - package.json
+  - resources/branding/**
+extraResources:
+  - from: demo/out/ExampleQuest.game
+    to: demo/ExampleQuest.game
+    filter:
+      - "**/*"
+  - from: resources/native/bpsfit-elevate.exe
+    to: native/bpsfit-elevate.exe
+asarUnpack:
+  - node_modules/sharp/**
+  - node_modules/@img/**
+npmRebuild: false
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  icon: resources/branding/icon.ico
+  requestedExecutionLevel: asInvoker
+  artifactName: BPSteamFit-${version}-setup.${ext}
+  electronLanguages:
+    - es
+    - en-US
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  runAfterFinish: true
+  shortcutName: BPSteamFit
+  deleteAppDataOnUninstall: false
+publish: null
+compression: normal

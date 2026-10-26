@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1d33"/>
+      <stop offset="1" stop-color="#1f4e63"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#s)"/>
+  <circle cx="940" cy="148" r="132" fill="#ffe8b6" opacity="0.75"/>
+  <circle cx="918" cy="126" r="108" fill="#1f4e63" opacity="0.55"/>
+  <path d="M0 500 L170 410 L330 486 L510 390 L720 492 L930 370 L1110 468 L1280 420 L1280 720 L0 720 Z" fill="#05090d" opacity="0.74"/>
+  <rect y="560" width="1280" height="160" fill="#04070a" opacity="0.82"/>
+  <polygon points="420,250 490,548 350,548" fill="#e9eef2" opacity="0.92"/>
+  <polygon points="420,250 490,548 420,548" fill="#aab8c2" opacity="0.7"/>
+  <rect x="392" y="232" width="58" height="40" fill="#ffd166"/>
+  <polygon points="450,240 1020,150 1020,270 450,280" fill="#ffd166" opacity="0.2"/>
+  <text x="70" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="5" fill="#ffd166">SCREENSHOT DEMO 1</text>
+  <text x="70" y="636" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff">El faro guarda un recuerdo que no es suyo.</text>
+  <text x="1210" y="70" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="4" fill="#ffffff" opacity="0.6">BPS TEAM FIT</text>
+</svg>

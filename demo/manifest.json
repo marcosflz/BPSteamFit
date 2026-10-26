@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "example-quest",
+  "name": "Example Quest",
+  "version": "1.0.0",
+  "metadata": {
+    "searchTitle": "Example Quest",
+    "releaseYear": 2026,
+    "edition": null,
+    "providerIds": {
+      "mock": "eq-2026"
+    }
+  },
+  "installation": {
+    "type": "executable",
+    "profile": "demo",
+    "executable": "payload/setup.exe",
+    "workingDirectory": "payload",
+    "arguments": [
+      "/S",
+      "/DIR={installDir}"
+    ],
+    "requiresElevation": false,
+    "successExitCodes": [0],
+    "rebootRequiredExitCodes": [3010],
+    "verification": {
+      "requiredFiles": [
+        "bin/ExampleQuest.exe",
+        "data/level1.dat"
+      ],
+      "requiredDirectories": [
+        "bin"
+      ],
+      "timeoutSeconds": 10
+    }
+  },
+  "launch": {
+    "executable": "bin/ExampleQuest.exe",
+    "arguments": [],
+    "workingDirectory": "bin"
+  },
+  "steam": {
+    "enabled": true,
+    "displayName": "Example Quest",
+    "tags": ["BPSteamFit", "Local Games"]
+  }
+}

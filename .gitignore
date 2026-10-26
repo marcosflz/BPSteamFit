@@ -1,0 +1,27 @@
+# Dependencias y artefactos
+node_modules/
+out/
+dist/
+release/
+coverage/
+*.log
+
+# Builds locales y fixtures generados
+build/
+demo/out/
+fixtures/steam/generated/
+resources/native/
+
+# Entorno
+.env
+.env.*
+!.env.example
+
+# Contenido local del usuario: nunca forma parte del proyecto ni de sus fixtures
+Firewatch*/
+*.game
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store

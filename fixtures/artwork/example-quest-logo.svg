@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400">
+  <g>
+    <rect x="36" y="132" width="96" height="120" rx="18" fill="#ffd166"/>
+    <text x="62" y="214" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" fill="#0b1d33">EQ</text>
+    <text x="170" y="188" font-family="Segoe UI, Arial, sans-serif" font-size="82" font-weight="800" fill="#ffffff">EXAMPLE</text>
+    <text x="170" y="266" font-family="Segoe UI, Arial, sans-serif" font-size="82" font-weight="800" fill="#ffffff">QUEST</text>
+    <text x="174" y="320" font-family="Segoe UI, Arial, sans-serif" font-size="20" letter-spacing="8" fill="#ffd166">ORIGINAL DEMO ARTWORK</text>
+  </g>
+</svg>
