@@ -7,6 +7,40 @@ la instalación y preparación de accesos externos y artwork para Steam.
 No descarga juegos, no incluye contenido comercial, no evita DRM, no desactiva
 antivirus y no ejecuta la app completa como administrador.
 
+## Capturas
+
+Las imágenes usan el paquete de demostración y el proveedor de metadatos mock;
+no muestran juegos ni arte de terceros.
+
+![Biblioteca local de BPSteamFit](docs/screenshots/library.png)
+
+*El salón: catálogo local, filtros por estado y preparación de accesos para Steam.*
+
+![Ficha de Example Quest](docs/screenshots/game-detail.png)
+
+*Ficha con metadatos, identidad confirmada, artwork y acciones de instalación.*
+
+![Confirmación de instalación](docs/screenshots/install-dialog.png)
+
+*Confirmación del destino y del perfil del instalador.*
+
+![Galería de imágenes](docs/screenshots/artwork.png)
+
+*Selección de portada, fondo, logo, icono y capturas.*
+
+<details>
+<summary>Más capturas: verificación y ajustes</summary>
+
+![Instalación completada](docs/screenshots/install-complete.png)
+
+*Verificación real de los archivos declarados por el manifiesto.*
+
+![Ajustes](docs/screenshots/settings.png)
+
+*Carpetas, raíz de instalación, proveedor de metadatos, Steam y controles.*
+
+</details>
+
 ## Estado
 
 MVP funcional en Windows, con límites documentados. El flujo real (paquete →
